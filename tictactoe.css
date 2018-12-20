@@ -1,0 +1,90 @@
+.boxstyle{
+	border:1px solid black;
+	font-size:10px;
+	padding:100px 100px 100px 100px;
+	z-index:0;
+
+	
+}
+.box1{
+	border-left:none;
+	border-top:none;
+	z-index:0;
+
+}
+.box7{
+	border-top:none;
+}
+.box4{
+	border-top:none;
+	border-bottom:;
+}
+.box2{
+	border-left:none;
+}
+.box3{
+	border-left:none;
+	border-bottom:none;
+}
+.box6{
+	border-bottom:none;
+}
+.box7{
+	border-right:none;
+}
+.box8{
+	border-right:none;
+}
+.box9{
+	border-right:none;
+	border-bottom:none;
+}
+
+.boxlayout{
+	text-align:center;
+	margin-top:5%;
+	margin-left:35%;
+	display:grid;
+	grid-template-columns:2fr 2fr 2fr;
+	
+	position:absolute;
+
+}
+.p1{
+
+	background:url("https://image.freepik.com/free-icon/letter-x_318-26692.jpg");
+	background-size:200px 200px;
+background-repeat:no-repeat;
+z-index:0;}
+
+
+.p2{
+		background:url("https://pbs.twimg.com/profile_images/1211240095/O__Modern_size_150.jpg");
+	background-size:200px 200px;
+background-repeat:no-repeat;
+z-index:0;
+
+}
+.boxhidden{
+	display:none;
+	position:absolute;
+	z-index:-1;
+
+
+}
+.wincss{
+	font-size:60px;
+
+margin-left:40%;
+margin-top:200px;
+}
+.reset{
+	padding: 0;
+  border: 1px solid grey;
+  
+  
+  background-color: transparent;
+  margin-left:45%;
+
+}
+
